@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckSame<package_4d702d3c>",
+            "request": "launch",
+            "mainClass": "CheckSame",
+            "projectName": "package_4d702d3c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckSame<package_4d702d3c>(1)",
+            "request": "launch",
+            "mainClass": "createData.java.CheckSame",
+            "projectName": "package_4d702d3c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenerateTestData<package_4d702d3c>",
+            "request": "launch",
+            "mainClass": "createData.java.GenerateTestData",
+            "projectName": "package_4d702d3c"
+        }
+    ]
+}
